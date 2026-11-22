@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="dashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a11"/>
+      <stop offset="40%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <radialGradient id="topGlow" cx="80%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#070a11" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="tileBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+
+    <linearGradient id="sparkGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <linearGradient id="gaugeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <!-- Base Dashboard Frame -->
+  <rect width="1200" height="460" rx="16" fill="url(#dashBg)"/>
+  <rect width="1200" height="460" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="460" rx="16" fill="url(#topGlow)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="458.5" rx="15.25" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Top System Console Bar -->
+  <g transform="translate(40, 36)" class="mono" font-size="11">
+    <rect x="0" y="-14" width="100" height="24" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="14" cy="-2" r="4" fill="#10b981"/>
+    <circle cx="14" cy="-2" r="7" fill="#10b981" fill-opacity="0.25"/>
+    <text x="26" y="2" font-weight="600" fill="#f1f5f9" letter-spacing="1">SYSTEM</text>
+
+    <text x="120" y="2" fill="#64748b">VASSAR COLLEGE HONORS</text>
+    <text x="310" y="2" fill="#334155">|</text>
+    <text x="330" y="2" fill="#64748b">LOC: 33.4484° N, 112.0740° W [PHX · RELOCATION READY]</text>
+    <text x="730" y="2" fill="#334155">|</text>
+    <text x="750" y="2" fill="#64748b">MULTIDISCIPLINARY CORE</text>
+    
+    <text x="1120" y="2" text-anchor="end" fill="#38bdf8" font-weight="600" letter-spacing="0.5">jhbadelmann@gmail.com</text>
+  </g>
+
+  <line x1="40" y1="58" x2="1160" y2="58" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Identity Console -->
+  <g transform="translate(40, 105)">
+    <text class="mono" font-size="11" fill="#38bdf8" letter-spacing="2.5" font-weight="600">INTERDISCIPLINARY SYSTEMS &amp; CREATIVE TECHNOLOGY</text>
+    <text y="42" class="sans" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.03em">JACQUELINE ADELMANN</text>
+    <text y="72" class="sans" font-size="15.5" font-weight="500" fill="#94a3b8">
+      Cognitive Systems <tspan fill="#334155">·</tspan> Machine Creativity &amp; AI <tspan fill="#334155">·</tspan> Built Environments &amp; Spatial Design <tspan fill="#334155">·</tspan> Data Analytics
+    </text>
+  </g>
+
+  <!-- 4 Interactive KPI Tiles -->
+  <g transform="translate(40, 215)">
+    <!-- Tile 1: 7-Stage LLM Pipeline -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="205" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#38bdf8"/>
+      
+      <text x="18" y="28" class="mono" font-size="10" fill="#38bdf8" letter-spacing="1.5" font-weight="600">SYS // 01</text>
+      <text x="247" y="28" text-anchor="end" class="mono" font-size="10" fill="#64748b">AI CREATIVITY</text>
+      
+      <text x="18" y="70" class="sans" font-size="32" font-weight="800" fill="#ffffff">7-Stage</text>
+      <text x="18" y="92" class="sans" font-size="12" fill="#94a3b8" font-weight="500">Autonomous Prompt Pipeline</text>
+
+      <g transform="translate(18, 116)">
+        <rect x="0" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+        <rect x="33" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+        <rect x="66" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+        <rect x="99" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+        <rect x="132" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+        <rect x="165" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+        <rect x="198" y="0" width="28" height="6" rx="2" fill="#38bdf8"/>
+      </g>
+      <text x="18" y="138" class="mono" font-size="9.5" fill="#64748b">STAGES 1-7 COMPLETE</text>
+
+      <g transform="translate(18, 156)">
+        <rect width="180" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="10" y="16" class="mono" font-size="10" fill="#38bdf8">18 Phaser.js Games</text>
+      </g>
+    </g>
+
+    <!-- Tile 2: Empirical Cohorts -->
+    <g transform="translate(285, 0)">
+      <rect width="265" height="205" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#818cf8"/>
+
+      <text x="18" y="28" class="mono" font-size="10" fill="#818cf8" letter-spacing="1.5" font-weight="600">SYS // 02</text>
+      <text x="247" y="28" text-anchor="end" class="mono" font-size="10" fill="#64748b">BEHAVIOR</text>
+
+      <text x="18" y="70" class="sans" font-size="30" font-weight="800" fill="#ffffff">N=81 &amp; 550+</text>
+      <text x="18" y="92" class="sans" font-size="12" fill="#94a3b8" font-weight="500">Human-in-the-Loop &amp; Survey</text>
+
+      <g transform="translate(18, 114)">
+        <rect width="229" height="8" rx="4" fill="#1e293b"/>
+        <rect width="190" height="8" rx="4" fill="url(#gaugeGrad)"/>
+      </g>
+      <text x="18" y="138" class="mono" font-size="9.5" fill="#64748b">CAT STUDY (81) + URSI (550+)</text>
+
+      <g transform="translate(18, 156)">
+        <rect width="180" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="10" y="16" class="mono" font-size="10" fill="#818cf8">Consensual Assessment</text>
+      </g>
+    </g>
+
+    <!-- Tile 3: 17-Year Longitudinal Data & Sparkline -->
+    <g transform="translate(570, 0)">
+      <rect width="265" height="205" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#34d399"/>
+
+      <text x="18" y="28" class="mono" font-size="10" fill="#34d399" letter-spacing="1.5" font-weight="600">SYS // 03</text>
+      <text x="247" y="28" text-anchor="end" class="mono" font-size="10" fill="#64748b">DATA SCIENCE</text>
+
+      <text x="18" y="70" class="sans" font-size="32" font-weight="800" fill="#ffffff">17 Years</text>
+      <text x="18" y="92" class="sans" font-size="12" fill="#94a3b8" font-weight="500">Hudson River Spatio-Temporal</text>
+
+      <g transform="translate(18, 108)">
+        <path d="M 0 28 Q 30 18, 60 22 T 120 12 T 170 20 T 225 4 L 225 32 L 0 32 Z" fill="url(#sparkGrad)"/>
+        <path d="M 0 28 Q 30 18, 60 22 T 120 12 T 170 20 T 225 4" fill="none" stroke="#34d399" stroke-width="2"/>
+        <circle cx="225" cy="4" r="3" fill="#34d399"/>
+      </g>
+      <text x="18" y="150" class="mono" font-size="9.5" fill="#64748b">2007 - 2024 WATER MONITORING</text>
+
+      <g transform="translate(18, 160)">
+        <rect width="180" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="10" y="16" class="mono" font-size="10" fill="#34d399">Riverkeeper Modeling</text>
+      </g>
+    </g>
+
+    <!-- Tile 4: Spatial Systems, Art & Architecture -->
+    <g transform="translate(855, 0)">
+      <rect width="265" height="205" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#f43f5e"/>
+
+      <text x="18" y="28" class="mono" font-size="10" fill="#f43f5e" letter-spacing="1.5" font-weight="600">SYS // 04</text>
+      <text x="247" y="28" text-anchor="end" class="mono" font-size="10" fill="#64748b">SPATIAL &amp; ART</text>
+
+      <text x="18" y="70" class="sans" font-size="32" font-weight="800" fill="#ffffff">Portfolio</text>
+      <text x="18" y="92" class="sans" font-size="12" fill="#94a3b8" font-weight="500">Built Environment &amp; Fine Art</text>
+
+      <g transform="translate(18, 112)">
+        <rect width="70" height="18" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <rect x="2" y="2" width="30" height="14" rx="7" fill="#f43f5e"/>
+        <text x="80" y="14" class="mono" font-size="10" fill="#cbd5e1">LIVE BUILD</text>
+      </g>
+      <text x="18" y="144" class="mono" font-size="9.5" fill="#64748b">PHYSICAL MODELS &amp; FINE ART</text>
+
+      <g transform="translate(18, 156)">
+        <rect width="210" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="10" y="16" class="mono" font-size="9.5" fill="#f43f5e">art-design-portfolio-orpin</text>
+      </g>
+    </g>
+  </g>
+</svg>

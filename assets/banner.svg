@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="dashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0d1322"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <radialGradient id="cyanAmbient" cx="90%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#080c14" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Patterns -->
+    <pattern id="dashGridMajor" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="0" cy="0" r="1.2" fill="#38bdf8" fill-opacity="0.5"/>
+    </pattern>
+
+    <pattern id="dashGridMinor" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M 12 0 L 0 0 0 12" fill="none" stroke="#1e293b" stroke-width="0.3" stroke-opacity="0.3"/>
+    </pattern>
+
+    <linearGradient id="textWhite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect width="1200" height="360" rx="14" fill="url(#dashBg)"/>
+  <rect width="1200" height="360" rx="14" fill="url(#dashGridMinor)"/>
+  <rect width="1200" height="360" rx="14" fill="url(#dashGridMajor)"/>
+  <rect width="1200" height="360" rx="14" fill="url(#cyanAmbient)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="13.25" fill="none" stroke="#334155" stroke-width="1.2" stroke-opacity="0.6"/>
+
+  <!-- Top Dashboard Status Bar -->
+  <g transform="translate(48, 42)" class="mono" font-size="11" fill="#94a3b8">
+    <!-- Live status pill -->
+    <rect x="0" y="-14" width="94" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="12" cy="-3" r="3.5" fill="#10b981"/>
+    <text x="22" y="1" font-weight="600" fill="#f1f5f9" letter-spacing="1">ONLINE</text>
+
+    <!-- Telemetry items -->
+    <text x="114" y="1" fill="#64748b">PORTFOLIO // CONSOLE</text>
+    <text x="310" y="1" fill="#475569">|</text>
+    <text x="330" y="1" fill="#64748b">INDEX // VASSAR COLLEGE HONORS</text>
+    <text x="610" y="1" fill="#475569">|</text>
+    <text x="630" y="1" fill="#64748b">SYS // 41.7003° N, 73.8966° W</text>
+    
+    <!-- Right alignment mark -->
+    <text x="1040" y="1" text-anchor="end" fill="#38bdf8" font-weight="600" letter-spacing="1">DISCIPLINE: 04</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="48" y1="62" x2="1152" y2="62" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Main Identity Cluster -->
+  <g transform="translate(48, 126)">
+    <text class="mono" font-size="12" fill="#38bdf8" letter-spacing="3" font-weight="600">RESEARCH &amp; SYSTEMS ARCHITECTURE</text>
+    <text y="46" class="sans" font-size="44" font-weight="800" fill="url(#textWhite)" letter-spacing="-0.03em">JACQUELINE ADELMANN</text>
+    <text y="78" class="sans" font-size="16.5" font-weight="500" fill="#94a3b8">
+      Cognitive Science <tspan fill="#475569">·</tspan> Applied Mathematics &amp; Statistics <tspan fill="#475569">·</tspan> Urban Studies &amp; Architecture
+    </text>
+  </g>
+
+  <!-- Right Side Minimalist Schematic -->
+  <g transform="translate(940, 95)" opacity="0.85">
+    <!-- Telemetry Box -->
+    <rect x="0" y="0" width="212" height="110" rx="8" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="24" class="mono" font-size="10" fill="#64748b" letter-spacing="1.5">TELEMETRY SUMMARY</text>
+    <line x1="16" y1="34" x2="196" y2="34" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="55" class="mono" font-size="11" fill="#cbd5e1">PIPELINE: <tspan fill="#38bdf8" font-weight="600">7-STAGE</tspan></text>
+    <text x="16" y="74" class="mono" font-size="11" fill="#cbd5e1">DATA RANGE: <tspan fill="#818cf8" font-weight="600">17 YEARS</tspan></text>
+    <text x="16" y="93" class="mono" font-size="11" fill="#cbd5e1">COHORTS: <tspan fill="#10b981" font-weight="600">N=81 | N&gt;550</tspan></text>
+  </g>
+
+  <!-- Bottom Dashboard Pods -->
+  <g transform="translate(48, 240)">
+    <!-- Pod 1 -->
+    <g>
+      <rect x="0" y="0" width="352" height="74" rx="8" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+      <line x1="0" y1="0" x2="352" y2="0" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8"/>
+      <text x="16" y="24" class="mono" font-size="10" fill="#38bdf8" letter-spacing="1.5" font-weight="600">PANEL 01 // COGNITIVE AI</text>
+      <text x="16" y="45" class="sans" font-size="13.5" font-weight="600" fill="#f1f5f9">Autonomous Prompt Architecture</text>
+      <text x="16" y="62" class="sans" font-size="12" fill="#64748b">LLM Creativity Evaluation &amp; Multi-Agent Systems</text>
+    </g>
+
+    <!-- Pod 2 -->
+    <g transform="translate(376, 0)">
+      <rect x="0" y="0" width="352" height="74" rx="8" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+      <line x1="0" y1="0" x2="352" y2="0" stroke="#818cf8" stroke-width="2" stroke-opacity="0.8"/>
+      <text x="16" y="24" class="mono" font-size="10" fill="#818cf8" letter-spacing="1.5" font-weight="600">PANEL 02 // STATISTICAL MODELING</text>
+      <text x="16" y="45" class="sans" font-size="13.5" font-weight="600" fill="#f1f5f9">Longitudinal &amp; Spatial Telemetry</text>
+      <text x="16" y="62" class="sans" font-size="12" fill="#64748b">Multivariate Regression &amp; Factor/Cluster Analysis</text>
+    </g>
+
+    <!-- Pod 3 -->
+    <g transform="translate(752, 0)">
+      <rect x="0" y="0" width="352" height="74" rx="8" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+      <line x1="0" y1="0" x2="352" y2="0" stroke="#34d399" stroke-width="2" stroke-opacity="0.8"/>
+      <text x="16" y="24" class="mono" font-size="10" fill="#34d399" letter-spacing="1.5" font-weight="600">PANEL 03 // INTERACTIVE &amp; SPATIAL</text>
+      <text x="16" y="45" class="sans" font-size="13.5" font-weight="600" fill="#f1f5f9">TypeScript PWAs &amp; Spatial Design</text>
+      <text x="16" y="62" class="sans" font-size="12" fill="#64748b">Human-Centered UI/UX &amp; Urban Morphology</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBgRk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="riverGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="cardGridRk" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <rect width="1200" height="240" rx="14" fill="url(#cardBgRk)"/>
+  <rect width="1200" height="240" rx="14" fill="url(#cardGridRk)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="238.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="0" y="0" width="4" height="240" rx="2" fill="#34d399"/>
+
+  <g transform="translate(36, 36)">
+    <text class="mono" font-size="10" fill="#34d399" letter-spacing="2" font-weight="600">PROJECT // 03 · STATISTICAL CONSULTING CAPSTONE</text>
+    <text y="32" class="sans" font-size="24" font-weight="800" fill="#ffffff" letter-spacing="-0.02em">Riverkeeper Spatio-Temporal Water Quality Modeling</text>
+    <text y="58" class="sans" font-size="13.5" fill="#94a3b8">
+      Longitudinal data analysis of 17 years of noisy spatio-temporal environmental monitoring across the Hudson River watershed.
+    </text>
+
+    <!-- Architecture Schematic -->
+    <g transform="translate(0, 88)">
+      <rect width="160" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="21" class="mono" font-size="10.5" fill="#34d399">17-YEAR RAW SAMPLES</text>
+      <line x1="160" y1="17" x2="190" y2="17" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <g transform="translate(190, 0)">
+        <rect width="160" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="21" class="mono" font-size="10.5" fill="#38bdf8">R / TIDYVERSE PIPELINE</text>
+      </g>
+      <line x1="350" y1="17" x2="380" y2="17" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <g transform="translate(380, 0)">
+        <rect width="160" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="21" class="mono" font-size="10.5" fill="#818cf8">SPATIAL REGRESSION</text>
+      </g>
+      <line x1="540" y1="17" x2="570" y2="17" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <g transform="translate(570, 0)">
+        <rect width="160" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="21" class="mono" font-size="10.5" fill="#f43f5e">STAKEHOLDER POLICY</text>
+      </g>
+    </g>
+
+    <!-- Tech Tag Chips -->
+    <g transform="translate(0, 142)">
+      <text class="mono" font-size="10" fill="#64748b">STACK:</text>
+      <rect x="52" y="-12" width="50" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="64" y="2" class="mono" font-size="10" fill="#cbd5e1">R</text>
+
+      <rect x="110" y="-12" width="86" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="122" y="2" class="mono" font-size="10" fill="#cbd5e1">Tidyverse</text>
+
+      <rect x="204" y="-12" width="140" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="216" y="2" class="mono" font-size="10" fill="#cbd5e1">Time Series Modeling</text>
+
+      <rect x="352" y="-12" width="128" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="364" y="2" class="mono" font-size="10" fill="#cbd5e1">Spatial Statistics</text>
+
+      <rect x="488" y="-12" width="140" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="500" y="2" class="mono" font-size="10" fill="#34d399">Reproducible Science</text>
+    </g>
+  </g>
+
+  <!-- Right Side Telemetry KPI Pod -->
+  <g transform="translate(820, 30)">
+    <rect width="344" height="180" rx="10" fill="#070d18" stroke="#1e293b" stroke-width="1"/>
+    <text x="20" y="28" class="mono" font-size="10" fill="#64748b" letter-spacing="1.5">EMPIRICAL OUTCOMES</text>
+    <line x1="20" y1="38" x2="324" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+    <text x="20" y="68" class="sans" font-size="24" font-weight="800" fill="#34d399">17 Years</text>
+    <text x="150" y="66" class="sans" font-size="12" fill="#94a3b8">Longitudinal Dataset</text>
+    <text x="150" y="80" class="mono" font-size="9.5" fill="#64748b">2007 - 2024 Telemetry</text>
+
+    <!-- Sparkline Area -->
+    <g transform="translate(20, 105)">
+      <path d="M 0 32 Q 50 16, 100 24 T 180 10 T 240 20 T 300 4 L 300 40 L 0 40 Z" fill="url(#riverGrad2)"/>
+      <path d="M 0 32 Q 50 16, 100 24 T 180 10 T 240 20 T 300 4" fill="none" stroke="#34d399" stroke-width="2"/>
+      <circle cx="300" cy="4" r="3" fill="#34d399"/>
+    </g>
+    <text x="20" y="165" class="mono" font-size="9.5" fill="#64748b">WATERSHED MONITORING TIMELINE</text>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="stackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <pattern id="cardGrid4" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <rect width="1200" height="240" rx="14" fill="url(#stackBg)"/>
+  <rect width="1200" height="240" rx="14" fill="url(#cardGrid4)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="238.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Left: Domain Capacity Distribution -->
+  <g transform="translate(36, 32)">
+    <text class="mono" font-size="10" fill="#38bdf8" letter-spacing="2" font-weight="600">CAPABILITIES // MULTIDISCIPLINARY SYNTHESIS</text>
+    <text y="28" class="sans" font-size="20" font-weight="800" fill="#ffffff">Interdisciplinary Methodological Stack</text>
+
+    <!-- Bar 1 -->
+    <g transform="translate(0, 48)">
+      <text class="mono" font-size="10.5" fill="#cbd5e1">COGNITIVE SCIENCE &amp; MACHINE CREATIVITY (AI)</text>
+      <text x="500" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#38bdf8">96%</text>
+      <rect y="8" width="500" height="7" rx="3.5" fill="#1e293b"/>
+      <rect y="8" width="480" height="7" rx="3.5" fill="url(#bar1)"/>
+    </g>
+
+    <!-- Bar 2 -->
+    <g transform="translate(0, 84)">
+      <text class="mono" font-size="10.5" fill="#cbd5e1">DATA ANALYSIS, MODELING &amp; VISUALIZATION</text>
+      <text x="500" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#818cf8">92%</text>
+      <rect y="8" width="500" height="7" rx="3.5" fill="#1e293b"/>
+      <rect y="8" width="460" height="7" rx="3.5" fill="url(#bar2)"/>
+    </g>
+
+    <!-- Bar 3 -->
+    <g transform="translate(0, 120)">
+      <text class="mono" font-size="10.5" fill="#cbd5e1">TACTILE PWAS, AESTHETIC BUILDS &amp; UI/UX</text>
+      <text x="500" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#34d399">88%</text>
+      <rect y="8" width="500" height="7" rx="3.5" fill="#1e293b"/>
+      <rect y="8" width="440" height="7" rx="3.5" fill="url(#bar3)"/>
+    </g>
+
+    <!-- Bar 4 -->
+    <g transform="translate(0, 156)">
+      <text class="mono" font-size="10.5" fill="#cbd5e1">BUILT ENVIRONMENTS, TRADITIONAL &amp; TECH ART</text>
+      <text x="500" y="0" text-anchor="end" class="mono" font-size="10.5" fill="#f43f5e">85%</text>
+      <rect y="8" width="500" height="7" rx="3.5" fill="#1e293b"/>
+      <rect y="8" width="425" height="7" rx="3.5" fill="url(#bar4)"/>
+    </g>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="590" y1="24" x2="590" y2="216" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Right: Technical Infrastructure Grid -->
+  <g transform="translate(626, 32)">
+    <text class="mono" font-size="10" fill="#818cf8" letter-spacing="2" font-weight="600">INFRASTRUCTURE // TECHNOLOGIES</text>
+    <text y="28" class="sans" font-size="20" font-weight="800" fill="#ffffff">Applied Tooling Matrix</text>
+
+    <!-- Technology Pods -->
+    <g transform="translate(0, 48)">
+      <!-- AI & CogSci -->
+      <rect width="250" height="66" rx="6" fill="#0f172a" stroke="#1e293b"/>
+      <text x="14" y="20" class="mono" font-size="10" fill="#38bdf8">AI &amp; HUMAN BEHAVIOR</text>
+      <text x="14" y="38" class="sans" font-size="11.5" fill="#f1f5f9">Multi-Agent · Prompt Pipelines</text>
+      <text x="14" y="52" class="mono" font-size="9.5" fill="#64748b">jsPsych · Consensual Assessment</text>
+
+      <!-- Stats & Modeling -->
+      <g transform="translate(266, 0)">
+        <rect width="250" height="66" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <text x="14" y="20" class="mono" font-size="10" fill="#818cf8">DATA &amp; VISUALIZATION</text>
+        <text x="14" y="38" class="sans" font-size="11.5" fill="#f1f5f9">R (Tidyverse) · Python Analytics</text>
+        <text x="14" y="52" class="mono" font-size="9.5" fill="#64748b">Time Series · Spatial Statistics</text>
+      </g>
+
+      <!-- Engineering & PWAs -->
+      <g transform="translate(0, 78)">
+        <rect width="250" height="66" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <text x="14" y="20" class="mono" font-size="10" fill="#34d399">TACTILE WEB BUILDS</text>
+        <text x="14" y="38" class="sans" font-size="11.5" fill="#f1f5f9">TypeScript · JavaScript · PWA</text>
+        <text x="14" y="52" class="mono" font-size="9.5" fill="#64748b">Phaser.js · Service Workers</text>
+      </g>
+
+      <!-- Spatial & Design -->
+      <g transform="translate(266, 78)">
+        <rect width="250" height="66" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <text x="14" y="20" class="mono" font-size="10" fill="#f43f5e">BUILT FORM &amp; VISUAL ART</text>
+        <text x="14" y="38" class="sans" font-size="11.5" fill="#f1f5f9">Urban Morphology · Spatial Data</text>
+        <text x="14" y="52" class="mono" font-size="9.5" fill="#64748b">Traditional &amp; Techy Fine Arts</text>
+      </g>
+    </g>
+  </g>
+</svg>

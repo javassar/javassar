@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBgArt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="roseAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <pattern id="cardGridArt" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <rect width="1200" height="250" rx="14" fill="url(#cardBgArt)"/>
+  <rect width="1200" height="250" rx="14" fill="url(#cardGridArt)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="248.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="0" y="0" width="4" height="250" rx="2" fill="url(#roseAccent)"/>
+
+  <!-- Left Column: Spatial Theory & Media -->
+  <g transform="translate(36, 34)">
+    <text class="mono" font-size="10" fill="#fb7185" letter-spacing="2" font-weight="600">STUDIO // SPATIAL ARCHITECTURE, BUILT ENVIRONMENT &amp; FINE ART</text>
+    <text y="30" class="sans" font-size="24" font-weight="800" fill="#ffffff" letter-spacing="-0.02em">Physical Prototyping, Negative Space &amp; Traditional Craft</text>
+    <text y="54" class="sans" font-size="13" fill="#94a3b8">
+      Spatial design, physical prototyping, and intentional craft bridging tactile art with technology.
+    </text>
+    <text y="72" class="sans" font-size="13" fill="#94a3b8">
+      Exploring how built spaces guide movement, how analog materials ground attention, and how quantitative models track interaction.
+    </text>
+
+    <!-- Two Dual Pods -->
+    <g transform="translate(0, 94)">
+      <!-- Pod 1: Architecture Models -->
+      <rect width="360" height="52" rx="6" fill="#0f172a" stroke="#1e293b"/>
+      <text x="14" y="22" class="mono" font-size="10" fill="#fb7185" font-weight="600">ARCHITECTURE &amp; NEGATIVE SPACE</text>
+      <text x="14" y="38" class="sans" font-size="11.5" fill="#f1f5f9">Physical scale models studying spatial voids, light &amp; movement</text>
+
+      <!-- Pod 2: Traditional Fine Art -->
+      <g transform="translate(376, 0)">
+        <rect width="360" height="52" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <text x="14" y="22" class="mono" font-size="10" fill="#38bdf8" font-weight="600">TRADITIONAL FINE ART &amp; 2D MEDIA</text>
+        <text x="14" y="38" class="sans" font-size="11.5" fill="#f1f5f9">Oil paintings on canvas, analog mark-making &amp; composition</text>
+      </g>
+    </g>
+
+    <!-- Stack Chips -->
+    <g transform="translate(0, 168)">
+      <text class="mono" font-size="10" fill="#64748b">DOMAINS:</text>
+      <rect x="70" y="-12" width="156" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="80" y="2" class="mono" font-size="10" fill="#cbd5e1">Scale Physical Models</text>
+
+      <rect x="236" y="-12" width="116" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="246" y="2" class="mono" font-size="10" fill="#cbd5e1">Oil on Canvas</text>
+
+      <rect x="362" y="-12" width="144" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="372" y="2" class="mono" font-size="10" fill="#cbd5e1">Negative Space Studies</text>
+
+      <rect x="516" y="-12" width="160" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="526" y="2" class="mono" font-size="10" fill="#fb7185">Urban Morphology Theory</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Live Portfolio Gateway -->
+  <g transform="translate(820, 30)">
+    <rect width="344" height="190" rx="10" fill="#070d18" stroke="#1e293b" stroke-width="1"/>
+    <text x="20" y="28" class="mono" font-size="10" fill="#64748b" letter-spacing="1.5">LIVE DIGITAL PORTFOLIO</text>
+    <line x1="20" y1="38" x2="324" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+    <text x="20" y="66" class="sans" font-size="20" font-weight="800" fill="#ffffff">Art &amp; Architecture</text>
+    <text x="20" y="86" class="sans" font-size="12" fill="#94a3b8">Curated index of physical models,</text>
+    <text x="20" y="102" class="sans" font-size="12" fill="#94a3b8">oil paintings, and spatial works.</text>
+
+    <!-- Destination Badge -->
+    <g transform="translate(20, 126)">
+      <rect width="304" height="42" rx="6" fill="#0f172a" stroke="#fb7185" stroke-width="0.8"/>
+      <text x="14" y="20" class="mono" font-size="10" fill="#fb7185" font-weight="600">PORTFOLIO // LAUNCH</text>
+      <text x="14" y="33" class="mono" font-size="9.5" fill="#94a3b8">art-design-portfolio-orpin.vercel.app</text>
+    </g>
+  </g>
+</svg>

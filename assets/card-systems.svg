@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="cardGrid3" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <rect width="1200" height="240" rx="14" fill="url(#cardBg3)"/>
+  <rect width="1200" height="240" rx="14" fill="url(#cardGrid3)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="238.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Left Pane: Riverkeeper -->
+  <g transform="translate(36, 32)">
+    <rect x="0" y="0" width="3" height="176" rx="1.5" fill="#34d399"/>
+    <g transform="translate(16, 0)">
+      <text class="mono" font-size="10" fill="#34d399" letter-spacing="2" font-weight="600">PROJECT // 03 · ENVIRONMENTAL DATA SCIENCE</text>
+      <text y="28" class="sans" font-size="20" font-weight="800" fill="#ffffff">Riverkeeper Water Quality Capstone</text>
+      <text y="50" class="sans" font-size="12.5" fill="#94a3b8">
+        17 years of noisy spatio-temporal telemetry across the Hudson River watershed.
+      </text>
+
+      <!-- Sparkline area chart -->
+      <g transform="translate(0, 72)">
+        <path d="M 0 34 Q 40 18, 80 26 T 160 12 T 260 22 T 360 8 T 460 16 T 510 4 L 510 42 L 0 42 Z" fill="url(#riverGrad)"/>
+        <path d="M 0 34 Q 40 18, 80 26 T 160 12 T 260 22 T 360 8 T 460 16 T 510 4" fill="none" stroke="#34d399" stroke-width="2"/>
+        <circle cx="510" cy="4" r="3" fill="#34d399"/>
+      </g>
+
+      <!-- Chips -->
+      <g transform="translate(0, 142)">
+        <rect width="110" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="10" y="14" class="mono" font-size="10" fill="#34d399">17-Year Telemetry</text>
+
+        <rect x="120" y="0" width="100" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="130" y="14" class="mono" font-size="10" fill="#cbd5e1">R / Tidyverse</text>
+
+        <rect x="230" y="0" width="124" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="240" y="14" class="mono" font-size="10" fill="#cbd5e1">Spatial Statistics</text>
+
+        <rect x="364" y="0" width="146" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="374" y="14" class="mono" font-size="10" fill="#cbd5e1">Stakeholder Report</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="600" y1="24" x2="600" y2="216" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Right Pane: PWAs & Spatial Systems -->
+  <g transform="translate(636, 32)">
+    <rect x="0" y="0" width="3" height="176" rx="1.5" fill="#f43f5e"/>
+    <g transform="translate(16, 0)">
+      <text class="mono" font-size="10" fill="#f43f5e" letter-spacing="2" font-weight="600">PROJECT // 04 · INTERACTIVE APPLICATIONS &amp; SPATIAL</text>
+      <text y="28" class="sans" font-size="20" font-weight="800" fill="#ffffff">Progressive Web Apps &amp; Spatial Design</text>
+      <text y="50" class="sans" font-size="12.5" fill="#94a3b8">
+        Tactile interfaces, mobile ergonomics, and urban morphology theory.
+      </text>
+
+      <!-- PWA Status Pods -->
+      <g transform="translate(0, 72)">
+        <rect width="240" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <circle cx="16" cy="21" r="4" fill="#f43f5e"/>
+        <text x="28" y="18" class="sans" font-size="12" font-weight="700" fill="#ffffff">Little Hours</text>
+        <text x="28" y="32" class="mono" font-size="9.5" fill="#64748b">AMBIENT PWA · TYPESCRIPT</text>
+
+        <g transform="translate(254, 0)">
+          <rect width="250" height="42" rx="6" fill="#0f172a" stroke="#1e293b"/>
+          <circle cx="16" cy="21" r="4" fill="#10b981"/>
+          <text x="28" y="18" class="sans" font-size="12" font-weight="700" fill="#ffffff">Group Fitness App</text>
+          <text x="28" y="32" class="mono" font-size="9.5" fill="#64748b">SOCIAL MOTIVATION · MOBILE UX</text>
+        </g>
+      </g>
+
+      <!-- Chips -->
+      <g transform="translate(0, 142)">
+        <rect width="116" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="10" y="14" class="mono" font-size="10" fill="#f43f5e">TypeScript PWA</text>
+
+        <rect x="126" y="0" width="130" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="136" y="14" class="mono" font-size="10" fill="#cbd5e1">Service Workers</text>
+
+        <rect x="266" y="0" width="118" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="276" y="14" class="mono" font-size="10" fill="#cbd5e1">Urban Morphology</text>
+
+        <rect x="394" y="0" width="110" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+        <text x="404" y="14" class="mono" font-size="10" fill="#cbd5e1">Spatial Theory</text>
+      </g>
+    </g>
+  </g>
+</svg>

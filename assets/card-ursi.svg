@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.0"/>
+    </linearGradient>
+    <pattern id="cardGrid2" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <rect width="1200" height="240" rx="14" fill="url(#cardBg2)"/>
+  <rect width="1200" height="240" rx="14" fill="url(#cardGrid2)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="238.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="0" y="0" width="4" height="240" rx="2" fill="#818cf8"/>
+
+  <g transform="translate(36, 36)">
+    <text class="mono" font-size="10" fill="#818cf8" letter-spacing="2" font-weight="600">PROJECT // 02 · RESEARCH FELLOWSHIP (URSI)</text>
+    <text y="32" class="sans" font-size="24" font-weight="800" fill="#ffffff" letter-spacing="-0.02em">URSI Conversation Bot: Multi-Agent AI</text>
+    <text y="58" class="sans" font-size="13.5" fill="#94a3b8">
+      Engineering multi-agent conversational systems to measure and reduce reluctance on controversial topics.
+    </text>
+
+    <!-- Architecture Schematic -->
+    <g transform="translate(0, 88)">
+      <rect width="150" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="14" y="21" class="mono" font-size="10.5" fill="#818cf8">MULTI-AGENT LLM</text>
+      <line x1="150" y1="17" x2="180" y2="17" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <g transform="translate(180, 0)">
+        <rect width="160" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="21" class="mono" font-size="10.5" fill="#38bdf8">JSPSYCH PLATFORM</text>
+      </g>
+      <line x1="340" y1="17" x2="370" y2="17" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <g transform="translate(370, 0)">
+        <rect width="170" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="21" class="mono" font-size="10.5" fill="#34d399">FACTOR &amp; CLUSTER</text>
+      </g>
+      <line x1="540" y1="17" x2="570" y2="17" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <g transform="translate(570, 0)">
+        <rect width="140" height="34" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="21" class="mono" font-size="10.5" fill="#f43f5e">NLP SENTIMENT</text>
+      </g>
+    </g>
+
+    <!-- Tech Tag Chips -->
+    <g transform="translate(0, 142)">
+      <text class="mono" font-size="10" fill="#64748b">STACK:</text>
+      <rect x="52" y="-12" width="70" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="64" y="2" class="mono" font-size="10" fill="#cbd5e1">Python</text>
+
+      <rect x="130" y="-12" width="80" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="142" y="2" class="mono" font-size="10" fill="#cbd5e1">jsPsych</text>
+
+      <rect x="218" y="-12" width="130" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="230" y="2" class="mono" font-size="10" fill="#cbd5e1">Multi-Agent LLMs</text>
+
+      <rect x="356" y="-12" width="140" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="368" y="2" class="mono" font-size="10" fill="#cbd5e1">Predictive Modeling</text>
+
+      <rect x="504" y="-12" width="120" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="516" y="2" class="mono" font-size="10" fill="#818cf8">Factor Analysis</text>
+    </g>
+  </g>
+
+  <!-- Right Side Telemetry KPI Pod -->
+  <g transform="translate(820, 30)">
+    <rect width="344" height="180" rx="10" fill="#070d18" stroke="#1e293b" stroke-width="1"/>
+    <text x="20" y="28" class="mono" font-size="10" fill="#64748b" letter-spacing="1.5">EMPIRICAL OUTCOMES</text>
+    <line x1="20" y1="38" x2="324" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+    <text x="20" y="68" class="sans" font-size="24" font-weight="800" fill="#818cf8">N &gt; 550</text>
+    <text x="150" y="66" class="sans" font-size="12" fill="#94a3b8">Online Survey Sample</text>
+    <text x="150" y="80" class="mono" font-size="9.5" fill="#64748b">Psychometric Cohort</text>
+
+    <!-- Visual Friction De-escalation Sparkline -->
+    <g transform="translate(20, 105)">
+      <path d="M 0 32 Q 50 20, 100 24 T 180 8 T 240 16 T 300 4 L 300 40 L 0 40 Z" fill="url(#curveGrad)"/>
+      <path d="M 0 32 Q 50 20, 100 24 T 180 8 T 240 16 T 300 4" fill="none" stroke="#818cf8" stroke-width="2"/>
+    </g>
+    <text x="20" y="165" class="mono" font-size="9.5" fill="#64748b">CONVERSATIONAL RELUCTANCE DE-ESCALATION</text>
+  </g>
+</svg>
