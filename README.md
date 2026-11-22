@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/javassar">
-    <img src="./assets/dashboard-telemetry.svg?v=2" width="100%" alt="Jacqueline Adelmann Executive Systems Dashboard" />
+    <img src="./assets/dashboard-telemetry.svg?v=3" width="100%" alt="Jacqueline Adelmann Executive Systems Dashboard" />
   </a>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2000&pause=1400&color=38BDF8&background=0A0A0A&center=true&vCenter=true&width=860&height=50&lines=%3E+Honors+Graduate%2C+Vassar+College+%C2%B7+Math%2FStats+%26+Cognitive+Science.;%3E+Cognitive+Systems%2C+AI+Creativity%2C+Built+Environments+%26+Design.;%3E+7-Stage+Autonomous+Multi-Model+LLM+Prompt+Architecture.;%3E+17-Year+Longitudinal+Water+Quality+Modeling+(Riverkeeper).;%3E+Tactile+Progressive+Web+Applications+%26+Spatial+Architecture." width="100%" alt="Typing lines" />
 </p>

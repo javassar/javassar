@@ -56,111 +56,105 @@
 
   <!-- Identity Console -->
   <g transform="translate(40, 102)">
-    <text class="mono" font-size="11.5" fill="#38bdf8" letter-spacing="2" font-weight="600">INTERDISCIPLINARY SYSTEMS &amp; CREATIVE TECHNOLOGY</text>
+    <text class="mono" font-size="11.5" fill="#38bdf8" letter-spacing="2" font-weight="600">INTERDISCIPLINARY COGNITIVE &amp; SPATIAL SYSTEMS</text>
     <text y="42" class="sans" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.03em">JACQUELINE ADELMANN</text>
     <text y="70" class="sans" font-size="15" font-weight="500" fill="#94a3b8">
-      Cognitive Systems <tspan fill="#334155">·</tspan> Machine Creativity &amp; AI <tspan fill="#334155">·</tspan> Built Environments &amp; Spatial Design <tspan fill="#334155">·</tspan> Data Analytics
+      Cognitive Science <tspan fill="#334155">·</tspan> Human-AI Interaction <tspan fill="#334155">·</tspan> Built Environments &amp; Spatial Design <tspan fill="#334155">·</tspan> Applied Statistics
     </text>
   </g>
 
-  <!-- 4 Disciplinary Pillar Tiles (Option B: Core Competencies, Non-Redundant) -->
+  <!-- 4 Human-Forward Pillar Tiles -->
   <g transform="translate(40, 208)">
-    <!-- Tile 1: Cognitive Systems & AI -->
+    <!-- Tile 1: Human-AI Systems -->
     <g transform="translate(0, 0)">
       <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
       <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#38bdf8"/>
       
       <text x="20" y="28" class="mono" font-size="11" fill="#38bdf8" letter-spacing="1.5" font-weight="600">PILLAR // 01</text>
-      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">AI ARCHITECTURE</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">HUMAN &amp; AI</text>
       
-      <text x="20" y="68" class="sans" font-size="28" font-weight="800" fill="#ffffff">Cognitive AI</text>
-      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Machine Creativity &amp; Agents</text>
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">Human-AI</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Cognition &amp; Creativity</text>
 
-      <!-- Visual Node Schematic -->
+      <!-- Converging Human-Machine Node Schematic -->
       <g transform="translate(20, 114)">
-        <circle cx="10" cy="10" r="5" fill="#38bdf8"/>
-        <line x1="15" y1="10" x2="65" y2="10" stroke="#38bdf8" stroke-width="1.5"/>
-        <circle cx="70" cy="10" r="5" fill="#38bdf8"/>
-        <line x1="75" y1="10" x2="125" y2="10" stroke="#38bdf8" stroke-width="1.5"/>
-        <circle cx="130" cy="10" r="5" fill="#38bdf8"/>
-        <line x1="135" y1="10" x2="185" y2="10" stroke="#38bdf8" stroke-width="1.5"/>
-        <circle cx="190" cy="10" r="5" fill="#38bdf8"/>
+        <circle cx="12" cy="10" r="5" fill="#38bdf8"/>
+        <line x1="17" y1="10" x2="100" y2="10" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+        <circle cx="106" cy="10" r="6" fill="#818cf8"/>
+        <line x1="112" y1="10" x2="195" y2="10" stroke="#818cf8" stroke-width="1.5"/>
+        <circle cx="201" cy="10" r="5" fill="#38bdf8"/>
       </g>
 
-      <!-- Bottom Chip -->
       <g transform="translate(20, 145)">
         <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="12" y="18" class="mono" font-size="11" fill="#38bdf8">Multi-Agent Prompt Systems</text>
+        <text x="12" y="18" class="mono" font-size="11" fill="#38bdf8">Human-Centered AI Eval</text>
       </g>
     </g>
 
-    <!-- Tile 2: Empirical Data Science -->
+    <!-- Tile 2: Behavioral & Environmental Data -->
     <g transform="translate(285, 0)">
       <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
       <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#818cf8"/>
 
       <text x="20" y="28" class="mono" font-size="11" fill="#818cf8" letter-spacing="1.5" font-weight="600">PILLAR // 02</text>
-      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">STATISTICS</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">BEHAVIOR</text>
 
-      <text x="20" y="68" class="sans" font-size="28" font-weight="800" fill="#ffffff">Applied Stats</text>
-      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Longitudinal &amp; Spatial Modeling</text>
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">People &amp; Data</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Psychometrics &amp; Ecology</text>
 
-      <!-- Visual Distribution Curve -->
+      <!-- Behavioral Distribution Curve -->
       <g transform="translate(20, 106)">
         <path d="M 0 24 Q 40 22, 70 14 Q 112 0, 112 0 Q 112 0, 154 14 Q 184 22, 224 24 L 224 28 L 0 28 Z" fill="url(#curveGradStats)"/>
         <path d="M 0 24 Q 40 22, 70 14 Q 112 0, 112 0 Q 112 0, 154 14 Q 184 22, 224 24" fill="none" stroke="#818cf8" stroke-width="2"/>
       </g>
 
-      <!-- Bottom Chip -->
       <g transform="translate(20, 145)">
         <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="12" y="18" class="mono" font-size="11" fill="#818cf8">High-Dimensional Analytics</text>
+        <text x="12" y="18" class="mono" font-size="11" fill="#818cf8">Social &amp; Ecological Impact</text>
       </g>
     </g>
 
-    <!-- Tile 3: Product Engineering & UI/UX -->
+    <!-- Tile 3: Mindful Software & Habits -->
     <g transform="translate(570, 0)">
       <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
       <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#34d399"/>
 
       <text x="20" y="28" class="mono" font-size="11" fill="#34d399" letter-spacing="1.5" font-weight="600">PILLAR // 03</text>
-      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">WEB PRODUCTS</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">EXPERIENCE</text>
 
-      <text x="20" y="68" class="sans" font-size="28" font-weight="800" fill="#ffffff">Tactile Web</text>
-      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Progressive Web Applications</text>
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">Mindful Apps</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Tactile Digital Ergonomics</text>
 
-      <!-- Tactile UI Element -->
+      <!-- Habit Cadence & Toggle Indicator -->
       <g transform="translate(20, 110)">
         <rect width="64" height="18" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
         <rect x="2" y="2" width="28" height="14" rx="7" fill="#34d399"/>
-        <text x="74" y="14" class="mono" font-size="11" fill="#cbd5e1">OFFLINE SERVICE</text>
+        <text x="74" y="14" class="mono" font-size="11" fill="#cbd5e1">DAILY HABIT FLOW</text>
       </g>
 
-      <!-- Bottom Chip -->
       <g transform="translate(20, 145)">
         <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="12" y="18" class="mono" font-size="11" fill="#34d399">Ergonomic Interface Builds</text>
+        <text x="12" y="18" class="mono" font-size="11" fill="#34d399">Human-Centered PWA Utility</text>
       </g>
     </g>
 
-    <!-- Tile 4: Spatial Architecture & Fine Art -->
+    <!-- Tile 4: Spatial Experience & Movement -->
     <g transform="translate(855, 0)">
       <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
       <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#f43f5e"/>
 
       <text x="20" y="28" class="mono" font-size="11" fill="#f43f5e" letter-spacing="1.5" font-weight="600">PILLAR // 04</text>
-      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">SPATIAL &amp; ART</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">SPATIAL LIFE</text>
 
-      <text x="20" y="68" class="sans" font-size="28" font-weight="800" fill="#ffffff">Spatial Form</text>
-      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Built Voids &amp; Material Craft</text>
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">Built Space</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">How Space Guides Movement</text>
 
-      <!-- Spatial Crosshair / Void Schematic -->
+      <!-- Spatial Void & Directional Pathway -->
       <g transform="translate(20, 110)">
         <circle cx="8" cy="8" r="5" fill="#f43f5e"/>
-        <text x="22" y="12" class="mono" font-size="11" fill="#cbd5e1">NEGATIVE SPACE &amp; VOIDS</text>
+        <text x="22" y="12" class="mono" font-size="11" fill="#cbd5e1">NEGATIVE SPACE &amp; CRAFT</text>
       </g>
 
-      <!-- Bottom Chip -->
       <g transform="translate(20, 145)">
         <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
         <text x="12" y="18" class="mono" font-size="11" fill="#f43f5e">Physical Models &amp; Fine Art</text>
