@@ -74,7 +74,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="https://github.com/javassar/ember">
-    <img src="./assets/card-apps.svg" width="100%" alt="Vibe-Coded Web Applications: Ember, Little Hours, and Group Fitness App" />
+    <img src="./assets/card-vibe-apps.svg" width="100%" alt="Vibe-Coded Web Applications: Ember, Little Hours, and Group Fitness App" />
   </a>
 </p>
 <p align="right">
