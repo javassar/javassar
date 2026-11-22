@@ -70,18 +70,20 @@ Jacqueline_Adelmann:
 
 <br />
 
-## Product Design, Spatial Architecture &amp; Tactile Art
+## Product Design &amp; Vibe-Coded Applications
 
 <p align="center">
-  <a href="https://github.com/javassar">
-    <img src="./assets/card-apps.svg" width="100%" alt="Interactive Web Applications: Little Hours and Group Fitness App" />
+  <a href="https://github.com/javassar/ember">
+    <img src="./assets/card-apps.svg" width="100%" alt="Vibe-Coded Web Applications: Ember, Little Hours, and Group Fitness App" />
   </a>
 </p>
 <p align="right">
-  <sub><a href="https://github.com/javassar/littlehours">View Little Hours PWA</a> &nbsp;·&nbsp; <a href="https://github.com/javassar/group-fitness-app">View Group Fitness App</a></sub>
+  <sub><a href="https://github.com/javassar/ember">View Ember PWA</a> &nbsp;·&nbsp; <a href="https://github.com/javassar/littlehours">View Little Hours PWA</a> &nbsp;·&nbsp; <a href="https://github.com/javassar/group-fitness-app">View Group Fitness App</a></sub>
 </p>
 
 <br />
+
+## Spatial Architecture &amp; Fine Art Portfolio
 
 <p align="center">
   <a href="https://art-design-portfolio-orpin.vercel.app">
