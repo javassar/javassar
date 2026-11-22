@@ -4,8 +4,8 @@
       <stop offset="0%" stop-color="#0b1120"/>
       <stop offset="100%" stop-color="#070a12"/>
     </linearGradient>
-    <pattern id="cardGrid5" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    <pattern id="cardGrid5" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.35"/>
     </pattern>
   </defs>
   <style>
@@ -18,17 +18,17 @@
   <rect x="0.75" y="0.75" width="1198.5" height="158.5" rx="13.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
 
   <!-- Left: Direct Inquiries -->
-  <g transform="translate(36, 32)">
-    <text class="mono" font-size="10" fill="#38bdf8" letter-spacing="2" font-weight="600">CONTACT // DIRECT DISPATCH</text>
-    <text y="30" class="sans" font-size="22" font-weight="800" fill="#ffffff">Direct Correspondence &amp; Inquiries</text>
-    <text y="54" class="sans" font-size="13" fill="#94a3b8">
-      Phoenix, Arizona · Open to Relocation Globally · Research &amp; Engineering
+  <g transform="translate(36, 30)">
+    <text class="mono" font-size="11" fill="#38bdf8" letter-spacing="1.5" font-weight="600">CONTACT // DIRECT DISPATCH</text>
+    <text y="28" class="sans" font-size="22" font-weight="800" fill="#ffffff">Direct Correspondence &amp; Inquiries</text>
+    <text y="52" class="sans" font-size="14" fill="#94a3b8">
+      Phoenix, Arizona · Open to Relocation Globally
     </text>
 
     <!-- Email Badge -->
-    <g transform="translate(0, 70)">
-      <rect width="280" height="28" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
-      <text x="14" y="18" class="mono" font-size="12" fill="#38bdf8" font-weight="600">jhbadelmann@gmail.com</text>
+    <g transform="translate(0, 68)">
+      <rect width="280" height="32" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+      <text x="14" y="21" class="mono" font-size="13" fill="#38bdf8" font-weight="600">jhbadelmann@gmail.com</text>
     </g>
   </g>
 
@@ -36,27 +36,27 @@
   <line x1="570" y1="20" x2="570" y2="140" stroke="#1e293b" stroke-width="1"/>
 
   <!-- Right: Public Networks & Portfolio -->
-  <g transform="translate(606, 32)">
-    <text class="mono" font-size="10" fill="#818cf8" letter-spacing="2" font-weight="600">NETWORKS // ACTIVE PLATFORMS</text>
-    <text y="30" class="sans" font-size="22" font-weight="800" fill="#ffffff">Verified Professional Endpoints</text>
+  <g transform="translate(606, 30)">
+    <text class="mono" font-size="11" fill="#818cf8" letter-spacing="1.5" font-weight="600">NETWORKS // ACTIVE PLATFORMS</text>
+    <text y="28" class="sans" font-size="22" font-weight="800" fill="#ffffff">Verified Professional Endpoints</text>
     
     <g transform="translate(0, 64)">
       <!-- LinkedIn -->
       <g>
-        <rect width="156" height="34" rx="6" fill="#0f172a" stroke="#1e293b"/>
-        <text x="14" y="21" class="mono" font-size="10.5" fill="#cbd5e1">LINKEDIN // PROFILE</text>
+        <rect width="156" height="36" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <text x="14" y="23" class="mono" font-size="11.5" fill="#cbd5e1" font-weight="500">LINKEDIN // PROFILE</text>
       </g>
 
       <!-- GitHub -->
       <g transform="translate(170, 0)">
-        <rect width="156" height="34" rx="6" fill="#0f172a" stroke="#1e293b"/>
-        <text x="14" y="21" class="mono" font-size="10.5" fill="#cbd5e1">GITHUB // @JAVASSAR</text>
+        <rect width="156" height="36" rx="6" fill="#0f172a" stroke="#1e293b"/>
+        <text x="14" y="23" class="mono" font-size="11.5" fill="#cbd5e1" font-weight="500">GITHUB // @JAVASSAR</text>
       </g>
 
       <!-- Portfolio -->
       <g transform="translate(340, 0)">
-        <rect width="216" height="34" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
-        <text x="14" y="21" class="mono" font-size="10.5" fill="#38bdf8" font-weight="600">PORTFOLIO // ART &amp; DESIGN</text>
+        <rect width="216" height="36" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+        <text x="14" y="23" class="mono" font-size="11.5" fill="#38bdf8" font-weight="600">PORTFOLIO // ART &amp; DESIGN</text>
       </g>
     </g>
   </g>
