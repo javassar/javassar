@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/javassar">
-    <img src="./assets/dashboard-telemetry.svg?v=3" width="100%" alt="Jacqueline Adelmann Executive Systems Dashboard" />
+    <img src="./assets/telemetry-console.svg" width="100%" alt="Jacqueline Adelmann Executive Systems Dashboard" />
   </a>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2000&pause=1400&color=38BDF8&background=0A0A0A&center=true&vCenter=true&width=860&height=50&lines=%3E+Honors+Graduate%2C+Vassar+College+%C2%B7+Math%2FStats+%26+Cognitive+Science.;%3E+Cognitive+Systems%2C+AI+Creativity%2C+Built+Environments+%26+Design.;%3E+7-Stage+Autonomous+Multi-Model+LLM+Prompt+Architecture.;%3E+17-Year+Longitudinal+Water+Quality+Modeling+(Riverkeeper).;%3E+Tactile+Progressive+Web+Applications+%26+Spatial+Architecture." width="100%" alt="Typing lines" />
 </p>
@@ -39,7 +39,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="https://github.com/javassar/thesis">
-    <img src="./assets/card-thesis.svg?v=2" width="100%" alt="Senior Thesis: Are Large Language Models Creative?" />
+    <img src="./assets/card-thesis.svg" width="100%" alt="Senior Thesis: Are Large Language Models Creative?" />
   </a>
 </p>
 <p align="right">
@@ -50,7 +50,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="https://github.com/jodeleeuw/URSI-LLM-Convo-Bot">
-    <img src="./assets/card-ursi.svg?v=2" width="100%" alt="URSI Conversation Bot: Multi-Agent AI" />
+    <img src="./assets/card-ursi.svg" width="100%" alt="URSI Conversation Bot: Multi-Agent AI" />
   </a>
 </p>
 <p align="right">
@@ -61,7 +61,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="https://github.com/301-CCC/projects-riverkeeper">
-    <img src="./assets/card-riverkeeper.svg?v=2" width="100%" alt="Riverkeeper Spatio-Temporal Water Quality Modeling" />
+    <img src="./assets/card-riverkeeper.svg" width="100%" alt="Riverkeeper Spatio-Temporal Water Quality Modeling" />
   </a>
 </p>
 <p align="right">
@@ -74,7 +74,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="https://github.com/javassar">
-    <img src="./assets/card-apps.svg?v=2" width="100%" alt="Interactive Web Applications: Little Hours and Group Fitness App" />
+    <img src="./assets/card-apps.svg" width="100%" alt="Interactive Web Applications: Little Hours and Group Fitness App" />
   </a>
 </p>
 <p align="right">
@@ -85,7 +85,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="https://art-design-portfolio-orpin.vercel.app">
-    <img src="./assets/card-spatial-art.svg?v=2" width="100%" alt="Spatial Design, Architectural Models and Traditional Fine Art" />
+    <img src="./assets/card-spatial-art.svg" width="100%" alt="Spatial Design, Architectural Models and Traditional Fine Art" />
   </a>
 </p>
 <p align="right">
@@ -97,7 +97,7 @@ Jacqueline_Adelmann:
 ## Capabilities &amp; Technical Stack
 
 <p align="center">
-  <img src="./assets/card-stack.svg?v=2" width="100%" alt="Capabilities and Applied Tooling Stack" />
+  <img src="./assets/card-stack.svg" width="100%" alt="Capabilities and Applied Tooling Stack" />
 </p>
 
 <br />
@@ -118,7 +118,7 @@ Jacqueline_Adelmann:
 
 <p align="center">
   <a href="mailto:jhbadelmann@gmail.com">
-    <img src="./assets/card-contact.svg?v=2" width="100%" alt="Contact Terminal: jhbadelmann@gmail.com" />
+    <img src="./assets/card-contact.svg" width="100%" alt="Contact Terminal: jhbadelmann@gmail.com" />
   </a>
 </p>
 
@@ -134,5 +134,5 @@ Jacqueline_Adelmann:
 <br />
 
 <p align="center">
-  <img src="./assets/dashboard-footer.svg?v=2" width="100%" alt="Jacqueline Adelmann - Systems Operational" />
+  <img src="./assets/dashboard-footer.svg" width="100%" alt="Jacqueline Adelmann - Systems Operational" />
 </p>

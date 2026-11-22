@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="dashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a11"/>
+      <stop offset="40%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <radialGradient id="topGlow" cx="80%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#070a11" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="tileBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+
+    <linearGradient id="curveGradStats" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif; }
+  </style>
+
+  <!-- Frame -->
+  <rect width="1200" height="440" rx="16" fill="url(#dashBg)"/>
+  <rect width="1200" height="440" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="440" rx="16" fill="url(#topGlow)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="438.5" rx="15.25" fill="none" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Top System Bar -->
+  <g transform="translate(40, 36)" class="mono" font-size="11.5">
+    <rect x="0" y="-14" width="96" height="24" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="14" cy="-2" r="4" fill="#10b981"/>
+    <text x="26" y="2" font-weight="600" fill="#f1f5f9" letter-spacing="1">SYSTEM</text>
+
+    <text x="116" y="2" fill="#94a3b8">VASSAR COLLEGE HONORS</text>
+    <text x="320" y="2" fill="#334155">|</text>
+    <text x="340" y="2" fill="#94a3b8">PHOENIX, AZ (OPEN TO RELOCATION)</text>
+    
+    <text x="1120" y="2" text-anchor="end" fill="#38bdf8" font-weight="600">jhbadelmann@gmail.com</text>
+  </g>
+
+  <line x1="40" y1="56" x2="1160" y2="56" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Identity Console -->
+  <g transform="translate(40, 102)">
+    <text class="mono" font-size="11.5" fill="#38bdf8" letter-spacing="2" font-weight="600">INTERDISCIPLINARY COGNITIVE &amp; SPATIAL SYSTEMS</text>
+    <text y="42" class="sans" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.03em">JACQUELINE ADELMANN</text>
+    <text y="70" class="sans" font-size="15" font-weight="500" fill="#94a3b8">
+      Cognitive Science <tspan fill="#334155">·</tspan> Human-AI Interaction <tspan fill="#334155">·</tspan> Built Environments &amp; Spatial Design <tspan fill="#334155">·</tspan> Applied Statistics
+    </text>
+  </g>
+
+  <!-- 4 Human-Forward Pillar Tiles -->
+  <g transform="translate(40, 208)">
+    <!-- Tile 1: Human-AI Systems -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#38bdf8"/>
+      
+      <text x="20" y="28" class="mono" font-size="11" fill="#38bdf8" letter-spacing="1.5" font-weight="600">PILLAR // 01</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">HUMAN &amp; AI</text>
+      
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">Human-AI</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Cognition &amp; Creativity</text>
+
+      <!-- Converging Human-Machine Node Schematic -->
+      <g transform="translate(20, 114)">
+        <circle cx="12" cy="10" r="5" fill="#38bdf8"/>
+        <line x1="17" y1="10" x2="100" y2="10" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+        <circle cx="106" cy="10" r="6" fill="#818cf8"/>
+        <line x1="112" y1="10" x2="195" y2="10" stroke="#818cf8" stroke-width="1.5"/>
+        <circle cx="201" cy="10" r="5" fill="#38bdf8"/>
+      </g>
+
+      <g transform="translate(20, 145)">
+        <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="12" y="18" class="mono" font-size="11" fill="#38bdf8">Human-Centered AI Eval</text>
+      </g>
+    </g>
+
+    <!-- Tile 2: Behavioral & Environmental Data -->
+    <g transform="translate(285, 0)">
+      <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#818cf8"/>
+
+      <text x="20" y="28" class="mono" font-size="11" fill="#818cf8" letter-spacing="1.5" font-weight="600">PILLAR // 02</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">BEHAVIOR</text>
+
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">People &amp; Data</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Psychometrics &amp; Ecology</text>
+
+      <!-- Behavioral Distribution Curve -->
+      <g transform="translate(20, 106)">
+        <path d="M 0 24 Q 40 22, 70 14 Q 112 0, 112 0 Q 112 0, 154 14 Q 184 22, 224 24 L 224 28 L 0 28 Z" fill="url(#curveGradStats)"/>
+        <path d="M 0 24 Q 40 22, 70 14 Q 112 0, 112 0 Q 112 0, 154 14 Q 184 22, 224 24" fill="none" stroke="#818cf8" stroke-width="2"/>
+      </g>
+
+      <g transform="translate(20, 145)">
+        <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="12" y="18" class="mono" font-size="11" fill="#818cf8">Social &amp; Ecological Impact</text>
+      </g>
+    </g>
+
+    <!-- Tile 3: Mindful Software & Habits -->
+    <g transform="translate(570, 0)">
+      <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#34d399"/>
+
+      <text x="20" y="28" class="mono" font-size="11" fill="#34d399" letter-spacing="1.5" font-weight="600">PILLAR // 03</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">EXPERIENCE</text>
+
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">Mindful Apps</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">Tactile Digital Ergonomics</text>
+
+      <!-- Habit Cadence & Toggle Indicator -->
+      <g transform="translate(20, 110)">
+        <rect width="64" height="18" rx="9" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <rect x="2" y="2" width="28" height="14" rx="7" fill="#34d399"/>
+        <text x="74" y="14" class="mono" font-size="11" fill="#cbd5e1">DAILY HABIT FLOW</text>
+      </g>
+
+      <g transform="translate(20, 145)">
+        <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="12" y="18" class="mono" font-size="11" fill="#34d399">Human-Centered PWA Utility</text>
+      </g>
+    </g>
+
+    <!-- Tile 4: Spatial Experience & Movement -->
+    <g transform="translate(855, 0)">
+      <rect width="265" height="195" rx="12" fill="url(#tileBg)" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="265" height="3" rx="1.5" fill="#f43f5e"/>
+
+      <text x="20" y="28" class="mono" font-size="11" fill="#f43f5e" letter-spacing="1.5" font-weight="600">PILLAR // 04</text>
+      <text x="245" y="28" text-anchor="end" class="mono" font-size="11" fill="#64748b">SPATIAL LIFE</text>
+
+      <text x="20" y="68" class="sans" font-size="26" font-weight="800" fill="#ffffff">Built Space</text>
+      <text x="20" y="90" class="sans" font-size="13" fill="#94a3b8">How Space Guides Movement</text>
+
+      <!-- Spatial Void & Directional Pathway -->
+      <g transform="translate(20, 110)">
+        <circle cx="8" cy="8" r="5" fill="#f43f5e"/>
+        <text x="22" y="12" class="mono" font-size="11" fill="#cbd5e1">NEGATIVE SPACE &amp; CRAFT</text>
+      </g>
+
+      <g transform="translate(20, 145)">
+        <rect width="215" height="28" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="12" y="18" class="mono" font-size="11" fill="#f43f5e">Physical Models &amp; Fine Art</text>
+      </g>
+    </g>
+  </g>
+</svg>
